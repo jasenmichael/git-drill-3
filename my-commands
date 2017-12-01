@@ -1,0 +1,20 @@
+ 2449  cd final
+ 2450  clear
+ 2451  mkdir git-drill-3
+ 2452  cd git-drill-3
+ 2453  git clone git@github.com:jasenmichael/git-assessment-pull-example.git
+ 2454  cd git-assessment-pull-example
+ 2455  nano styles.css
+ 2456  git add styles.css
+ 2457  git status
+ 2458  git commit -m "set h1 color to green"
+ 2459  git push
+ 2460  git pull
+ 2461  git remote -v
+ 2462  git remote set-url origin git@github.com:baker-marlena/Im-so-broken.git
+ 2463  git remote remove origin
+ 2464  git remote add origin git@github.com:jasenmichael/git-assessment-pull-example.git
+ 2465  nano index.html
+ 2466  git add .
+ 2467  git commit -m "added my name in h1 tag"
+ 2468  git push --set-upstream origin master
